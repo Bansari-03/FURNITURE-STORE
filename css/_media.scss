@@ -1,0 +1,394 @@
+@media only screen and (max-width: 567px) {
+  .container {
+    width: 90%;
+  }
+  .banner-heading {
+    font-size: 18px;
+}
+.banner-sub-heading {
+  font-size: 21px;
+}
+.banner-sub-heading::after {
+  width: 101px;
+  height: 32px;
+  right: -18px;
+}
+.banner-text {
+  font-size: 14px;
+}
+.banner-btn{
+  padding: 7px 18px;
+  font-size: 12px;
+}
+.banner-content, .banner-content2, .banner-content1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  .producy-no {
+    top: 15%;
+  }
+
+  .featured-heading {
+    font-size: 26px;
+  }
+
+  .featured-btn1 {
+    padding: 10px 19px;
+    font-size: 14px;
+  }
+
+  .featured-txt {
+    font-size: 14px;
+  }
+
+  .featured-btn2 {
+    padding: 4px 29px;
+  }
+
+  .chair-filter li {
+    font-size: 14px;
+  }
+.chair-filter li:not(:last-child){
+  margin-right: 26px;
+
+}
+
+  .chair-filter li:not(:last-child)::after {
+    right: -16px;
+  }
+
+  .view-btn {
+    padding: 9px 34px;
+  }
+
+  .featured-sec {
+    padding: 50px 0;
+  }
+
+  .ptb-90 {
+    padding: 60px 0;
+  }
+  .chair-name {
+    font-size: 17px;
+}
+.chair-new-price ,
+.chair-old-price {
+  font-size: 15px;
+}
+.chair-collection-info {
+  padding: 14px;
+}
+.chair-collection-txt h2 {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.offer-heading {
+  font-size: 20px;
+}
+.offer-btn {
+  padding: 4px 5px;
+}
+.advertise-txt {
+  font-size: 16px;
+}
+.advertise-head {
+  font-size: 20px;
+}
+.offer-txt{
+  font-size: calc(13px + 1vw);
+}
+.footer-heading {
+  font-size: calc(34px - 1vw);
+}
+.footer-txt {
+  font-size: calc(12px + 1vw);
+}
+.footer-nav li a {
+  font-size: 15px;
+}
+.footer-bg-img.ptb-1{
+  padding: 55px 0;
+}
+#pre-loader{
+  background-size: 50%;
+}
+.about-txt {
+  font-size: 14px;
+}
+.mart-product-detail {
+  font-size: 14px;
+}
+.product-icon {
+  width: 50px;
+  height: 50px;
+}
+.product-name1 {
+  font-size: 19px;
+}
+.team-img {
+  max-width: 125px;
+}
+.team:hover .team-img{
+  max-width: 160px;
+}
+.team-name span {
+  font-size: 17px;
+}
+.news-blog-txt{
+  font-size: 16px;
+}
+.news-blog-heading a {
+  font-size: 20px;
+}
+.ptb-6 {
+  padding: 23px 0;
+}
+.input-txt input {
+  padding: 8px;
+}
+.contact-box p {
+  font-size: 15px;
+}
+.contact-btn {
+  padding: 10px;
+}
+
+}
+@media only screen and (min-width: 567px) {
+  .container {
+    width: 90%;
+  }
+
+  .chair-filter li {
+    font-size: 19px;
+  }
+
+  .chair-filter li:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .chair-filter li:not(:last-child)::after {
+    right: -17%;
+  }
+
+  .chair-collection-txt h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .view-btn {
+    padding: 8px 29px;
+  }
+
+  .banner-heading {
+    font-size: 26px;
+  }
+
+  .banner-sub-heading {
+    font-size: 30px;
+  }
+
+  .banner-sub-heading::after {
+    width: 144px;
+    height: 38px;
+    right: -18px;
+  }
+
+  .banner-text {
+    font-size: 16px;
+  }
+
+  .banner-btn,
+  .featured-btn1 {
+    padding: 8px 8px;
+    font-size: 14px;
+  }
+  .offer-heading {
+    font-size: 20px;
+}
+.offer-btn {
+  padding: 5px 7px;
+}
+.offer-content {
+  left: 9%;
+}
+.ptb-1 {
+  padding: 19px 0;
+}
+.footer-heading {
+  font-size: calc(27px + 1vw);
+}
+.footer-txt{
+  font-size: calc(8px + 1vw);
+}
+.footer-input-box input::placeholder{
+  font-size: 15px;
+}
+.footer-nav li a {
+  font-size: 16px;
+}
+#pre-loader {
+  background-size: 40%;
+}
+.about-txt {
+  font-size: 15px;
+}
+.team-img {
+  max-width: 125px;
+}
+.team:hover .team-img{
+  max-width: 160px;
+}
+.news-txt {
+  font-size: 17px;
+}
+.news-heading a {
+  font-size: 24px;
+}
+.contact-box p {
+  font-size: 15px;
+}
+.input-txt input {
+  padding: 10px;
+}
+.contact-btn {
+  padding: 12px;
+}
+.ptb-6 {
+  padding: 43px 0;
+}
+.forgot-pw {
+  font-size: 16px;
+}
+.sign-in-btn {
+  @extend .forgot-pw;
+}
+.new-ac{
+  @extend .forgot-pw;
+}
+.back {
+  @extend .forgot-pw;
+}
+}
+
+@media only screen and (min-width: 768px) {
+  .chair-filter li:not(:last-child) {
+    margin-right: 28px;
+}
+.chair-filter li {
+    font-size: 20px;
+}
+.offer-content {
+  left: 14%;
+}
+.ptb-1 {
+  padding: 30px 0;
+}
+.offer-txt {
+  font-size: calc(23px + 1vw);
+}
+.chair-collection p {
+  font-size: 13px;
+}
+.chair-info h2 {
+  font-size: 19px; 
+}
+.chair-info span {
+  font-size: 13px;
+}
+#pre-loader {
+  background-size: 30%;
+}
+.mart-product-detail {
+  font-size: 14px;
+}
+.product-icon {
+  width: 54px;
+  height: 54px ;
+}
+.news-heading a {
+  font-size: 22px;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+  .banner-btn{
+    padding: 9px 37px;
+    font-size: 15px;
+}
+.footer-input-box input::placeholder{
+  font-size: 17px;
+}
+.footer-nav li a {
+  font-size: 17px;
+}
+.offer-txt {
+  font-size: calc(28px + 1vw);
+}
+.about-txt {
+  font-size: 18px;
+}
+.mart-product-detail {
+  font-size: 17px;
+}
+.product-icon {
+  width: 65px;
+  height: 65px;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+  .banner-heading {
+    font-size: 29px;
+}
+.banner-sub-heading {
+  font-size: 37px;
+}
+.banner-text {
+  font-size: 18px;
+}
+.chair-filter li {
+  font-size: 25px;
+}
+
+.chair-filter li:not(:last-child) {
+  margin-right: 36px;
+}
+.chair-collection-txt h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.chair-collection-txt p{
+  font-size: 19px;
+}
+.view-btn{
+  padding: 10px 51px;
+}
+.offer-heading {
+  font-size: 30px;
+}
+.offer-txt {
+  font-size: calc(32px + 1vw);
+}
+.offer-btn {
+  padding: 8px 20px;
+}
+.ptb-1 {
+  padding: 100px 0;
+}
+.footer-txt {
+  font-size: calc(7px + 1vw);
+}
+.footer-nav li a {
+  font-size: 19px;
+}
+#pre-loader {
+  background-size: 20%;
+}
+.product-icon {
+  width: 70px;
+  height: 70px;
+}
+}
