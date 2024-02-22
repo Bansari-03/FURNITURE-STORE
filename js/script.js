@@ -90,6 +90,18 @@ $(document).ready(function () {
             }
         }
     })
+
+    $('.clk1').click(function(){
+        $('.product-view2').css("opacity","0")
+        $(this).css("border","1px solid blue")
+        $('.clk2').css("border","none")
+    })
+    $('.clk2').click(function(){
+        $('.product-view2').css('opacity','1')
+        $(this).css("border","1px solid blue")
+        $('.clk1').css("border","none")
+
+    })
     // track arrow
     $('.track-arrow').hide()
     $('.track-arrow').click(function(){
@@ -113,3 +125,4 @@ $(document).ready(function () {
     });
 })
 AOS.init();
+
